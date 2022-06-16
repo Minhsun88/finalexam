@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(B.getRoot());
         Intent it =getIntent();
         String e=it.getStringExtra("email");
-        setTitle(e);
+        setTitle("多益小幫手:"+e);
         db.collection("words")
                 .document(e)
                 .get()

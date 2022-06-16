@@ -30,7 +30,7 @@ public class register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Binding = ActivityRegisterBinding.inflate(getLayoutInflater());
         setContentView(Binding.getRoot());
-        setTitle("註冊帳號密碼");
+        setTitle("註冊帳號密碼:");
         Binding.btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

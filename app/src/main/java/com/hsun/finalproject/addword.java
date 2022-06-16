@@ -34,7 +34,7 @@ public class addword extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         B=ActivityAddwordBinding.inflate(getLayoutInflater());
         setContentView(B.getRoot());
-        setTitle("新增單字");
+        setTitle("新增單字:");
         ArrayList<String> wordL=new ArrayList<>();
         ArrayList<String> transL=new ArrayList<>();
         ArrayList<String> typeL=new ArrayList<>();
